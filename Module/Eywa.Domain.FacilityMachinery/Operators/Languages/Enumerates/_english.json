@@ -1,0 +1,11 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "Shutdown": "Shutdown",
+    "Run": "Run",
+    "Idle": "Idle",
+    "Error": "Error",
+    "Repair": "Repair",
+    "Maintenance": "Maintenance"
+  }
+}

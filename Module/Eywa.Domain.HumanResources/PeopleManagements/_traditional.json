@@ -1,0 +1,18 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "HumanEmailIndex": "電子郵件已存在",
+    "HumanSystemAccountIndex": "系統帳戶已存在",
+    "HumanEmailRegistrationSubject": "信箱認證",
+
+
+    "HumanPositionIdIsRequired": "職位ID是必需的",
+    "HumanPositionIdDoesNotExist": "職位ID不存在",
+    "HumanPositionNoIsRequired": "職位編號是必需的",
+    "HumanPositionNoIndex": "職位編號已存在",
+    "HumanPositionNameIsRequired": "職位名稱是必須的",
+
+    "HumanMemberIdIsRequired": "成員ID是必需的",
+    "HumanMemberIdDoesNotExist": "成員ID不存在"
+  }
+}

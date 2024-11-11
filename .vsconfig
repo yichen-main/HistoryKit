@@ -1,0 +1,21 @@
+{
+	"version": "1.0",
+	"configurations": [
+		{
+			"type": "default",
+			"name": "Debug",
+			"properties": {
+				"Configuration": "Debug",
+				"Platform": "Any CPU"
+			}
+		},
+		{
+			"type": "default",
+			"name": "Release",
+			"properties": {
+				"Configuration": "Release",
+				"Platform": "Any CPU"
+			}
+		}
+	]
+}

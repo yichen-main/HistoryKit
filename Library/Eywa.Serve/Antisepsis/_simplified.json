@@ -1,0 +1,30 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "SignIn": "登入",
+    "SignOut": "登出",
+
+    "Owner": "拥有者",
+    "Editor": "编辑者",
+    "Viewer": "检视者",
+
+    "Unrecognizable": "无法辨识",
+    "HumanResources": "人力资源",
+    "FacilityManagement": "设备管理",
+    "MaterialPlanning": "物料计划",
+    "ProductionControl": "生产管理",
+    "CateringIndustry": "餐饮服务",
+
+    "IncorrectUserRole": "用户角色不正确",
+    "UserRoleNotEmpty": "用户角色不能为空",
+
+    "IncorrectAccessPermissions": "访问权限不正确",
+    "IncorrectModulePermissions": "{0}:人员权限不正确",
+
+    "TimeIntervalNotEmpty": "时间间隔不能为空",
+    "TimeIntervalQueryFormatIncorrect": "时间间隔查询格式不正确",
+    "StartTimeFormatError": "起始时间格式错误",
+    "EndTimeFormatError": "结束时间格式错误",
+    "StartTimeMismatchEndTime": "开始时间大于或等于结束时间"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "SignIn": "Sign in",
+    "SignOut": "Sign out",
+
+    "Owner": "Owner",
+    "Editor": "Editor",
+    "Viewer": "Viewer",
+
+    "Unrecognizable": "Unrecognizable",
+    "HumanResources": "Human Resources",
+    "FacilityManagement": "Facility Management",
+    "MaterialPlanning": "Material Planning",
+    "ProductionControl": "Production Control",
+    "CateringIndustry": "Catering Industry",
+
+    "IncorrectUserRole": "Incorrect user role",
+    "UserRoleNotEmpty": "User role cannot be empty",
+
+    "IncorrectAccessPermissions": "Incorrect access permissions",
+    "IncorrectModulePermissions": "{0}:incorrect module permissions",
+
+    "TimeIntervalNotEmpty": "Time Interval cannot be empty",
+    "TimeIntervalQueryFormatIncorrect": "Time interval query format incorrect",
+    "StartTimeFormatError": "Start time format error",
+    "EndTimeFormatError": "End time format error",
+    "StartTimeMismatchEndTime": "Start time is greater than or equal to the end time"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "ProduceGroupLabel": "生產組別",
+    "ProduceGroupIdIsRequired": "組別ID是必需的",
+    "ProduceGroupIdDoesNotExist": "組別ID不存在",
+    "ProduceGroupNoIsRequired": "組別編號是必需的",
+    "ProduceGroupNoIndex": "組別編號已存在",
+    "ProduceGroupNameIsRequired": "組別名稱是必需的",
+
+    "ProduceMachineLabel": "生產機台",
+    "ProduceMachineIdIsRequired": "機台ID是必需的",
+    "ProduceMachineIdDoesNotExist": "機台ID不存在",
+
+    "ProduceOperatorLabel": "生產人員",
+    "ProduceOperatorIdIsRequired": "人員ID是必需的",
+    "ProduceOperatorIdDoesNotExist": "人員ID不存在",
+
+    "ProduceProcessLabel": "生產工序",
+    "ProduceProcessIdIsRequired": "工序ID是必需的",
+    "ProduceProcessIdDoesNotExist": "工序ID不存在",
+    "ProduceProcessNoIsRequired": "工序編號是必需的",
+    "ProduceProcessNoIndex": "工序編號已存在",
+    "ProduceProcessNameIsRequired": "工序名稱是必需的",
+
+    "ProduceShiftLabel": "生產班別",
+    "ProduceShiftIdIsRequired": "班別ID是必需的",
+    "ProduceShiftIdDoesNotExist": "班別ID不存在",
+    "ProduceShiftNoIsRequired": "班別編號是必需的",
+    "ProduceShiftNoIndex": "班別編號已存在",
+    "ProduceShiftNameIsRequired": "班別名稱是必需的",
+    "ProduceInvalidStartTimePointFormat": "起始時間格式無效",
+    "ProduceInvalidEndTimePointFormat": "結束時間格式無效",
+
+    "ProduceStationLabel": "生產工站",
+    "ProduceStationIdIsRequired": "工站ID是必需的",
+    "ProduceStationIdDoesNotExist": "工站ID不存在",
+    "ProduceStationNoIsRequired": "工站編號是必需的",
+    "ProduceStationNoIndex": "工站編號已存在",
+    "ProduceStationNameIsRequired": "工站名稱是必需的",
+
+
+    "ManufactureOrderLabel": "製造訂單",
+    "ManufactureOrderIdIsRequired": "訂單ID是必需的",
+    "ManufactureOrderIdDoesNotExist": "訂單ID不存在",
+    "ManufactureOrderNoIsRequired": "訂單編號是必需的",
+    "ManufactureOrderNoIndex": "訂單編號已存在",
+    "ManufactureOrderNameIsRequired": "訂單名稱是必需的",
+
+
+    "WorkingLocationLabel": "作業工位",
+    "WorkingLocationIdIsRequired": "工位ID是必需的",
+    "WorkingLocationIdDoesNotExist": "工位ID不存在",
+
+    "WorkingMachineryLabel": "作業機械",
+    "WorkingMachineryIdIsRequired": "機械ID是必需的",
+    "WorkingMachineryIdDoesNotExist": "機械ID不存在"
+  }
+}

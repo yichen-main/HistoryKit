@@ -1,0 +1,18 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "HumanEmailIndex": "Email already exists",
+    "HumanSystemAccountIndex": "System account already exists",
+    "HumanEmailRegistrationSubject": "Mailbox authentication",
+
+
+    "HumanPositionIdIsRequired": "Position ID is required",
+    "HumanPositionIdDoesNotExist": "Position ID does not exist",
+    "HumanPositionNoIsRequired": "Position number is required",
+    "HumanPositionNoIndex": "Position number already exists",
+    "HumanPositionNameIsRequired": "Position name is required",
+
+    "HumanMemberIdIsRequired": "Member ID is required",
+    "HumanMemberIdDoesNotExist": "Member ID does not exist"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "PartIdIsRequired": "物料ID是必需的",
+    "PartIdDoesNotExist": "物料ID不存在",
+    "PartNoIndex": "物料编号已存在",
+    "PartNoIsRequired": "物料编号是必需的",
+    "PartNameIndex": "物料名称已存在",
+    "PartNameIsRequired": "物料名称是必需的"
+  }
+}

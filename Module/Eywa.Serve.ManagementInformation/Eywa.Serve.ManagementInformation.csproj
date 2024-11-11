@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>8.10.71</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <PackageIcon>eywa-simple-128x128.png</PackageIcon>
+    <Authors>Reformtek</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Image\eywa-simple-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eywa.Domain.HumanResources\Eywa.Domain.HumanResources.csproj" />
+    <ProjectReference Include="..\Eywa.Infrastructure.BrowseMount\Eywa.Infrastructure.BrowseMount.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Dapper" />
+    <Using Include="FastEndpoints" />
+    <Using Include="FluentValidation" />
+    <Using Include="Npgsql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+    <Using Include="Eywa.Core.Architects.Primaries.Inventories" />
+    <Using Include="Eywa.Core.Architects.Primaries.Protections" />
+    <Using Include="Eywa.Core.Architects.Primaries.Substances" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Antisepsis.ProductionStaff.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Quarterlies" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Protections" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Quarterlies" />
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Scaffolders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.ManagementInformation.Databases.Masterdatas.Systems" />
+    <Using Include="Eywa.Serve.ManagementInformation.Databases.Masterdatas.Users" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Infrastructure.BrowseMount" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Domain.HumanResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Databases\Accounts\Registrations\" />
+  </ItemGroup>
+</Project>

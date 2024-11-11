@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>8.10.71</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <PackageIcon>eywa-simple-128x128.png</PackageIcon>
+    <Authors>Reformtek</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Image\eywa-simple-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentModbus" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid" />
+    <PackageReference Include="Microsoft.Garnet" />
+    <PackageReference Include="SoapCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eywa.Serve\Eywa.Serve.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Autofac" />
+    <Using Include="Autofac.Extensions.DependencyInjection" />
+    <Using Include="Coravel" />
+    <Using Include="Coravel.Invocable" />
+    <Using Include="FastEndpoints" />
+    <Using Include="Garnet" />
+    <Using Include="HotChocolate" />
+    <Using Include="HotChocolate.Subscriptions" />
+    <Using Include="HotChocolate.Types" />
+    <Using Include="MediatR" />
+    <Using Include="Serilog" />
+    <Using Include="Serilog.Core" />
+    <Using Include="Serilog.Events" />
+    <Using Include="SoapCore" />
+    <Using Include="Spectre.Console" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.AspNetCore.Authentication" />
+    <Using Include="Microsoft.AspNetCore.Builder" />
+    <Using Include="Microsoft.AspNetCore.Diagnostics" />
+    <Using Include="Microsoft.AspNetCore.Http" />
+    <Using Include="Microsoft.AspNetCore.HttpOverrides" />
+    <Using Include="Microsoft.AspNetCore.Hosting" />
+    <Using Include="Microsoft.AspNetCore.Localization" />
+    <Using Include="Microsoft.AspNetCore.Mvc.ApplicationModels" />
+    <Using Include="Microsoft.AspNetCore.Mvc.Controllers" />
+    <Using Include="Microsoft.AspNetCore.RateLimiting" />
+    <Using Include="Microsoft.AspNetCore.Routing" />
+    <Using Include="Microsoft.AspNetCore.Server.Kestrel.Core" />
+    <Using Include="Microsoft.Extensions.Configuration" />
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+    <Using Include="Microsoft.Extensions.DependencyInjection.Extensions" />
+    <Using Include="Microsoft.Extensions.Hosting" />
+    <Using Include="Microsoft.Extensions.Localization" />
+    <Using Include="Microsoft.Extensions.Logging" />
+    <Using Include="Microsoft.Extensions.Logging.Console" />
+    <Using Include="Microsoft.Extensions.Options" />
+    <Using Include="Microsoft.Extensions.Primitives" />
+    <Using Include="Microsoft.IdentityModel.Tokens" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Collections.Concurrent" />
+    <Using Include="System.Diagnostics" />
+    <Using Include="System.Globalization" />
+    <Using Include="System.IdentityModel.Tokens.Jwt" />
+    <Using Include="System.Net" />
+    <Using Include="System.Net.NetworkInformation" />
+    <Using Include="System.Net.Sockets" />
+    <Using Include="System.Reflection" />
+    <Using Include="System.Security.Authentication" />
+    <Using Include="System.Security.Claims" />
+    <Using Include="System.Text" />
+    <Using Include="System.Text.Encodings.Web" />
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Threading.RateLimiting" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+    <Using Include="Eywa.Core.Architects.Primaries.Composers" />
+    <Using Include="Eywa.Core.Architects.Primaries.Inventories" />
+    <Using Include="Eywa.Core.Architects.Primaries.Protections" />
+    <Using Include="Eywa.Core.Architects.Primaries.Substances" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Configures" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Quarterlies" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Assemblies" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Protections" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Quarterlies" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Loader.Antisepsis.Dynamizers.Composers" />
+    <Using Include="Eywa.Serve.Loader.Antisepsis.Dynamizers.Quarterlies" />
+    <Using Include="Eywa.Serve.Loader.Antisepsis.Dynamizers.Scaffolders" />
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Assemblies" />
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Composers" />
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Protections" />
+    <Using Include="Eywa.Serve.Loader.Constructs.Preliminaries.Scaffolders" />
+  </ItemGroup>
+</Project>

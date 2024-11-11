@@ -1,0 +1,11 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "IndustrialEquipmentLabel": "工業設備",
+    "IndustrialEquipmentIdIsRequired": "設備ID是必需的",
+    "IndustrialEquipmentIdDoesNotExist": "設備ID不存在",
+    "IndustrialEquipmentNoIsRequired": "設備編號是必需的",
+    "IndustrialEquipmentNoIndex": "設備編號已存在",
+    "IndustrialEquipmentNameIsRequired": "設備名稱是必需的"
+  }
+}

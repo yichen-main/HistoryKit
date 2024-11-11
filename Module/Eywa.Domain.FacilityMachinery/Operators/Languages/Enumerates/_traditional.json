@@ -1,0 +1,11 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "Shutdown": "關機",
+    "Run": "運行",
+    "Idle": "閒置",
+    "Error": "故障",
+    "Repair": "維修",
+    "Maintenance": "保養"
+  }
+}

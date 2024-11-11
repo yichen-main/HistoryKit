@@ -1,0 +1,30 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "SignIn": "登入",
+    "SignOut": "登出",
+
+    "Owner": "擁有者",
+    "Editor": "編輯者",
+    "Viewer": "檢視者",
+
+    "Unrecognizable": "無法辨識",
+    "HumanResources": "人力資源",
+    "FacilityManagement": "設備管理",
+    "MaterialPlanning": "物料計畫",
+    "ProductionControl": "生產管理",
+    "CateringIndustry": "餐飲服務",
+
+    "IncorrectUserRole": "用戶角色不正確",
+    "UserRoleNotEmpty": "用戶角色不能為空",
+
+    "IncorrectAccessPermissions": "訪問權限不正確",
+    "IncorrectModulePermissions": "{0}:人員權限不正確",
+
+    "TimeIntervalNotEmpty": "時間間隔不能為空",
+    "TimeIntervalQueryFormatIncorrect": "時間間隔查詢格式不正確",
+    "StartTimeFormatError": "起始時間格式錯誤",
+    "EndTimeFormatError": "起始時間格式錯誤",
+    "StartTimeMismatchEndTime": "開始時間大於或等於結束時間"
+  }
+}

@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>8.10.71</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <PackageIcon>eywa-simple-128x128.png</PackageIcon>
+    <Authors>Reformtek</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Image\eywa-simple-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" />
+    <PackageReference Include="LiteDB" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" />
+    <PackageReference Include="MQTTnet.Extensions.ManagedClient" />
+    <PackageReference Include="RabbitMQ.Client" />
+    <PackageReference Include="Serilog.Sinks.Console" />
+    <PackageReference Include="Serilog.Sinks.Seq" />
+    <PackageReference Include="Spectre.Console" />
+    <PackageReference Include="YamlDotNet" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="LiteDB" />
+    <Using Include="Serilog" />
+    <Using Include="YamlDotNet.RepresentationModel" />
+    <Using Include="YamlDotNet.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.Configuration" />
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Collections.Concurrent" />
+    <Using Include="System.ComponentModel" />
+    <Using Include="System.Globalization" />
+    <Using Include="System.Linq.Expressions" />
+    <Using Include="System.Net" />
+    <Using Include="System.Net.NetworkInformation" />
+    <Using Include="System.Net.Sockets" />
+    <Using Include="System.Reflection" />
+    <Using Include="System.Security.Cryptography" />
+    <Using Include="System.Text" />
+    <Using Include="System.Text.Encodings.Web" />
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Text.Json.Nodes" />
+    <Using Include="System.Text.Json.Serialization" />
+    <Using Include="System.Text.RegularExpressions" />
+    <Using Include="System.Threading.Channels" />
+    <Using Include="System.Xml" />
+    <Using Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+    <Using Include="Eywa.Core.Architects.Primaries.Composers" />
+    <Using Include="Eywa.Core.Architects.Primaries.Inventories" />
+    <Using Include="Eywa.Core.Architects.Primaries.Protections" />
+    <Using Include="Eywa.Core.Architects.Primaries.Protections.ArchiveExpand" Static="true" />
+    <Using Include="Eywa.Core.Architects.Primaries.Substances" />
+  </ItemGroup>
+</Project>

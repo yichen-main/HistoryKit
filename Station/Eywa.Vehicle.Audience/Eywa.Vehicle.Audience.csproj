@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>false</PublishAot>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <ServerGarbageCollection>False</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>True</ConcurrentGarbageCollection>
+    <IsTransformWebConfigDisabled>True</IsTransformWebConfigDisabled>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <ApplicationIcon>eywa-simple-128x128.ico</ApplicationIcon>
+    <Authors>Reformtek</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="eywa-simple-128x128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Module\Eywa.Serve.EnergyManagement\Eywa.Serve.EnergyManagement.csproj" />
+    <ProjectReference Include="..\..\Module\Eywa.Serve.IndustrialInternetThings\Eywa.Serve.IndustrialInternetThings.csproj" />
+    <ProjectReference Include="..\..\Module\Eywa.Serve.ManagementInformation\Eywa.Serve.ManagementInformation.csproj" />
+    <ProjectReference Include="..\..\Module\Eywa.Serve.ManufacturingExecution\Eywa.Serve.ManufacturingExecution.csproj" />
+    <ProjectReference Include="..\..\Module\Eywa.Serve.QualityManagement\Eywa.Serve.QualityManagement.csproj" />
+    <ProjectReference Include="..\..\Module\Eywa.Serve.WarehouseManagement\Eywa.Serve.WarehouseManagement.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Substances" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.EnergyManagement" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.IndustrialInternetThings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.ManagementInformation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.ManufacturingExecution" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.QualityManagement" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.WarehouseManagement" />
+  </ItemGroup>
+</Project>

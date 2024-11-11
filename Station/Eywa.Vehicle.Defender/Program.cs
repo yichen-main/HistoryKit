@@ -1,0 +1,1 @@
+﻿await LoadedHost.MiddleAsync<StandardFactory>().ConfigureAwait(false);

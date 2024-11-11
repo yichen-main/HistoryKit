@@ -1,0 +1,59 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "ProduceGroupLabel": "Production Ggroup",
+    "ProduceGroupIdIsRequired": "Ggroup ID is required",
+    "ProduceGroupIdDoesNotExist": "Ggroup ID does not exist",
+    "ProduceGroupNoIsRequired": "Ggroup number is required",
+    "ProduceGroupNoIndex": "Ggroup number already exists",
+    "ProduceGroupNameIsRequired": "Ggroup name is required",
+
+    "ProduceMachineLabel": "Production Machine",
+    "ProduceMachineIdIsRequired": "Machine ID is required",
+    "ProduceMachineIdDoesNotExist": "Machine ID does not exist",
+
+    "ProduceOperatorLabel": "Production Operator",
+    "ProduceOperatorIdIsRequired": "Operator ID is required",
+    "ProduceOperatorIdDoesNotExist": "Operator ID does not exist",
+
+    "ProduceProcessLabel": "Production Process",
+    "ProduceProcessIdIsRequired": "Process ID is required",
+    "ProduceProcessIdDoesNotExist": "Process ID does not exist",
+    "ProduceProcessNoIsRequired": "Process number is required",
+    "ProduceProcessNoIndex": "Process number already exists",
+    "ProduceProcessNameIsRequired": "Process name is required",
+
+    "ProduceShiftLabel": "Production Shift",
+    "ProduceShiftIdIsRequired": "Shift ID is required",
+    "ProduceShiftIdDoesNotExist": "Shift ID does not exist",
+    "ProduceShiftNoIsRequired": "Shift number is required",
+    "ProduceShiftNoIndex": "Shift number already exists",
+    "ProduceShiftNameIsRequired": "Shift name is required",
+    "ProduceInvalidStartTimePointFormat": "Invalid start time format",
+    "ProduceInvalidEndTimePointFormat": "Invalid end time format",
+
+    "ProduceStationLabel": "Production Station",
+    "ProduceStationIdIsRequired": "Station ID is required",
+    "ProduceStationIdDoesNotExist": "Station ID does not exist",
+    "ProduceStationNoIsRequired": "Station number is required",
+    "ProduceStationNoIndex": "Station number already exists",
+    "ProduceStationNameIsRequired": "Station name is required",
+
+
+    "ManufactureOrderLabel": "Manufacture Order",
+    "ManufactureOrderIdIsRequired": "Order ID is required",
+    "ManufactureOrderIdDoesNotExist": "Order ID does not exist",
+    "ManufactureOrderNoIsRequired": "Order number is required",
+    "ManufactureOrderNoIndex": "Order number already exists",
+    "ManufactureOrderNameIsRequired": "Order name is required",
+
+
+    "WorkingLocationLabel": "Working Location",
+    "WorkingLocationIdIsRequired": "Location ID is required",
+    "WorkingLocationIdDoesNotExist": "Location ID does not exist",
+
+    "WorkingMachineryLabel": "Working Machinery",
+    "WorkingMachineryIdIsRequired": "Machinery ID is required",
+    "WorkingMachineryIdDoesNotExist": "Machinery ID does not exist"
+  }
+}

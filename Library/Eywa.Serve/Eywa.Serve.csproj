@@ -1,0 +1,158 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>8.10.71</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <PackageIcon>eywa-simple-128x128.png</PackageIcon>
+    <Authors>Reformtek</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Antisepsis\_english.json" />
+    <EmbeddedResource Include="Antisepsis\_simplified.json" />
+    <EmbeddedResource Include="Antisepsis\_traditional.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Image\eywa-simple-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" />
+    <PackageReference Include="Coravel" />
+    <PackageReference Include="Dapper" />
+    <PackageReference Include="FastEndpoints" />
+    <PackageReference Include="HotChocolate.AspNetCore" />
+    <PackageReference Include="InfluxDB.Client" />
+    <PackageReference Include="MailKit" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" />
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime" />
+    <PackageReference Include="Refit" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" />
+    <PackageReference Include="WorkflowCore" />
+    <PackageReference Include="ZiggyCreatures.FusionCache" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eywa.Core\Eywa.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Autofac" />
+    <Using Include="Autofac.Extensions.DependencyInjection" />
+    <Using Include="Coravel.Invocable" />
+    <Using Include="Coravel.Scheduling.Schedule.Interfaces" />
+    <Using Include="Dapper" />
+    <Using Include="FastEndpoints" />
+    <Using Include="FluentValidation" />
+    <Using Include="HotChocolate.Subscriptions" />
+    <Using Include="LiteDB" />
+    <Using Include="InfluxDB.Client" />
+    <Using Include="InfluxDB.Client.Api.Domain" />
+    <Using Include="InfluxDB.Client.Core.Flux.Domain" />
+    <Using Include="InfluxDB.Client.Writes" />
+    <Using Include="MailKit.Net.Smtp" />
+    <Using Include="MailKit.Security" />
+    <Using Include="MediatR" />
+    <Using Include="MimeKit" />
+    <Using Include="MimeKit.Text" />
+    <Using Include="MQTTnet" />
+    <Using Include="MQTTnet.Client" />
+    <Using Include="MQTTnet.Extensions.ManagedClient" />
+    <Using Include="MQTTnet.Protocol" />
+    <Using Include="MQTTnet.Server" />
+    <Using Include="Npgsql" />
+    <Using Include="YamlDotNet.RepresentationModel" />
+    <Using Include="YamlDotNet.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Microsoft.AspNetCore.Authentication" />
+    <Using Include="Microsoft.AspNetCore.Builder" />
+    <Using Include="Microsoft.AspNetCore.Diagnostics" />
+    <Using Include="Microsoft.AspNetCore.Http" />
+    <Using Include="Microsoft.AspNetCore.HttpOverrides" />
+    <Using Include="Microsoft.AspNetCore.Hosting" />
+    <Using Include="Microsoft.AspNetCore.Localization" />
+    <Using Include="Microsoft.AspNetCore.Mvc" />
+    <Using Include="Microsoft.AspNetCore.Mvc.ApplicationModels" />
+    <Using Include="Microsoft.AspNetCore.Mvc.Controllers" />
+    <Using Include="Microsoft.AspNetCore.RateLimiting" />
+    <Using Include="Microsoft.AspNetCore.Routing" />
+    <Using Include="Microsoft.AspNetCore.Server.Kestrel.Core" />
+    <Using Include="Microsoft.Data.Sqlite" />
+    <Using Include="Microsoft.Extensions.Caching.Memory" />
+    <Using Include="Microsoft.Extensions.Configuration" />
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+    <Using Include="Microsoft.Extensions.DependencyInjection.Extensions" />
+    <Using Include="Microsoft.Extensions.FileProviders" />
+    <Using Include="Microsoft.Extensions.Hosting" />
+    <Using Include="Microsoft.Extensions.Localization" />
+    <Using Include="Microsoft.Extensions.Logging" />
+    <Using Include="Microsoft.Extensions.Logging.Console" />
+    <Using Include="Microsoft.Extensions.Options" />
+    <Using Include="Microsoft.Extensions.Primitives" />
+    <Using Include="Microsoft.IdentityModel.Tokens" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Collections.Concurrent" />
+    <Using Include="System.Collections.Frozen" />
+    <Using Include="System.ComponentModel" />
+    <Using Include="System.Data" />
+    <Using Include="System.Diagnostics" />
+    <Using Include="System.Globalization" />
+    <Using Include="System.IdentityModel.Tokens.Jwt" />
+    <Using Include="System.Linq.Expressions" />
+    <Using Include="System.Net" />
+    <Using Include="System.Net.NetworkInformation" />
+    <Using Include="System.Numerics" />
+    <Using Include="System.Reflection" />
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Runtime.InteropServices" />
+    <Using Include="System.Security.Authentication" />
+    <Using Include="System.Security.Claims" />
+    <Using Include="System.Security.Cryptography" />
+    <Using Include="System.Text" />
+    <Using Include="System.Text.Encodings.Web" />
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Threading.Channels" />
+    <Using Include="System.Threading.RateLimiting" />
+    <Using Include="System.Web" />
+    <Using Include="System.Xml" />
+    <Using Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+    <Using Include="Eywa.Core.Architects.Primaries.Composers" />
+    <Using Include="Eywa.Core.Architects.Primaries.Inventories" />
+    <Using Include="Eywa.Core.Architects.Primaries.Protections" />
+    <Using Include="Eywa.Core.Architects.Primaries.Substances" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Eywa.Serve.Antisepsis.ProductionStaff.Substances" />
+    <Using Include="Eywa.Serve.Antisepsis.WorkingFacilities.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Quarterlies" />
+    <Using Include="Eywa.Serve.Constructs.Adminiculars.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Configures" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Quarterlies" />
+    <Using Include="Eywa.Serve.Constructs.Foundations.Substances" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Composers" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Enumerates" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Protections" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Quarterlies" />
+    <Using Include="Eywa.Serve.Constructs.Grindstones.Substances" />
+  </ItemGroup>
+</Project>

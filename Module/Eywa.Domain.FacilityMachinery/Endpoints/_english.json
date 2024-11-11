@@ -1,0 +1,11 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "IndustrialEquipmentLabel": "Industrial Equipment",
+    "IndustrialEquipmentIdIsRequired": "Equipment ID is required",
+    "IndustrialEquipmentIdDoesNotExist": "Equipment ID does not exist",
+    "IndustrialEquipmentNoIsRequired": "Equipment number is required",
+    "IndustrialEquipmentNoIndex": "Equipment number already exists",
+    "IndustrialEquipmentNameIsRequired": "Equipment name is required"
+  }
+}

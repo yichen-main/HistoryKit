@@ -1,0 +1,11 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "Shutdown": "关机",
+    "Run": "运行",
+    "Idle": "闲置",
+    "Error": "故障",
+    "Repair": "维修",
+    "Maintenance": "保养"
+  }
+}

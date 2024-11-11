@@ -1,0 +1,18 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "HumanEmailIndex": "电子邮件已存在",
+    "HumanSystemAccountIndex": "系统帐户已存在",
+    "HumanEmailRegistrationSubject": "信箱认证",
+
+
+    "HumanPositionIdIsRequired": "职位ID是必需的",
+    "HumanPositionIdDoesNotExist": "职位ID不存在",
+    "HumanPositionNoIsRequired": "职位编号是必需的",
+    "HumanPositionNoIndex": "职位编号已存在",
+    "HumanPositionNameIsRequired": "职位名称是必需的",
+
+    "HumanMemberIdIsRequired": "成员ID是必需的",
+    "HumanMemberIdDoesNotExist": "成员ID不存在"
+  }
+}
