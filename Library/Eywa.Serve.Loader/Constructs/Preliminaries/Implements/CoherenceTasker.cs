@@ -9,13 +9,12 @@ internal sealed class CoherenceTasker : HostedService
             foreach (var type in modular.Value.GetAssemblyTypes<NpgsqlBase>())
             {
                 await BaseCreator.CreateNpgsqlAsync(type, stoppingToken).ConfigureAwait(false);
-                InscribedExpand.RemoveFieldModule(modular.Value);
             }
             foreach (var type in modular.Value.GetAssemblyTypes<SQLiteBase>())
             {
-                await SQLiteHelper.CreateAsync(type).ConfigureAwait(false);
-                InscribedExpand.RemoveFieldModule(modular.Value);
+                await SQLiteHelper.CreateAsync(type).ConfigureAwait(false);               
             }
+            InscribedExpand.RemoveFieldModule(modular.Value);
         }
         if (!_enable)
         {

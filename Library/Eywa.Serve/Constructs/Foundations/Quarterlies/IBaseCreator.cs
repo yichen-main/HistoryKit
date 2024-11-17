@@ -30,7 +30,7 @@ file sealed class BaseCreator : IBaseCreator
     public async ValueTask CreateBucketAsync()
     {
         using InfluxDBClient client = new(Influx.Url, Influx.Token);
-        foreach (TimeseriesBucket item in Enum.GetValues(typeof(TimeseriesBucket)))
+        foreach (TimeseriesBucket item in Enum.GetValues<TimeseriesBucket>())
         {
             var name = item.ToString().ToSnakeCase();
             var bucket = await client.GetBucketsApi().FindBucketByNameAsync(name).ConfigureAwait(false);

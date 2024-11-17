@@ -10,7 +10,7 @@
     <PackageVersion Include="AntDesign.Extensions.Localization" Version="1.0.0" />
     <PackageVersion Include="AntDesign.ProLayout" Version="1.0.0" />
     <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
-    <PackageVersion Include="ClosedXML" Version="0.104.1" />
+    <PackageVersion Include="ClosedXML" Version="0.104.2" />
     <PackageVersion Include="Coravel" Version="6.0.0" />
     <PackageVersion Include="Dapper" Version="2.1.35" />
     <PackageVersion Include="Eywa.Infrastructure.CarrierStacker" Version="8.9.82" />
@@ -24,23 +24,23 @@
     <PackageVersion Include="MassTransit.RabbitMQ" Version="8.2.5" />
     <PackageVersion Include="MediatR" Version="12.4.1" />
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
-    <PackageVersion Include="Microsoft.AspNetCore.Components.QuickGrid" Version="8.0.10" />
-    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.10" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.QuickGrid" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
     <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />
-    <PackageVersion Include="Microsoft.Data.Sqlite" Version="8.0.10" />
+    <PackageVersion Include="Microsoft.Data.Sqlite" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.10" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting.Systemd" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.Extensions.Http" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.Extensions.Localization.Abstractions" Version="8.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Systemd" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Localization.Abstractions" Version="9.0.0" />
     <PackageVersion Include="Microsoft.Fast.Components.FluentUI" Version="3.7.8" />
-    <PackageVersion Include="Microsoft.Garnet" Version="1.0.36" />
-    <GlobalPackageReference Include="Meziantou.Analyzer" Version="2.0.177">
+    <PackageVersion Include="Microsoft.Garnet" Version="1.0.39" />
+    <GlobalPackageReference Include="Meziantou.Analyzer" Version="2.0.179">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </GlobalPackageReference>
-    <PackageVersion Include="Microsoft.ML.TensorFlow" Version="3.0.1" />
+    <PackageVersion Include="Microsoft.ML.TensorFlow" Version="4.0.0" />
     <PackageVersion Include="MQTTnet.Extensions.ManagedClient" Version="4.3.7.1207" />
     <PackageVersion Include="MudBlazor" Version="7.8.0" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime" Version="8.0.10" />
@@ -55,8 +55,8 @@
     <PackageVersion Include="SoapCore" Version="1.1.0.51" />
     <PackageVersion Include="Spectre.Console" Version="0.49.1" />
     <PackageVersion Include="StackExchange.Redis" Version="2.8.16" />
-    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.2.0" />
-    <PackageVersion Include="System.Net.Http.Json" Version="8.0.1" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
+    <PackageVersion Include="System.Net.Http.Json" Version="9.0.0" />
     <PackageVersion Include="TensorFlow.NET" Version="0.150.0" />
     <PackageVersion Include="TUnit" Version="0.1.793" />
     <PackageVersion Include="WorkflowCore" Version="3.11.0" />

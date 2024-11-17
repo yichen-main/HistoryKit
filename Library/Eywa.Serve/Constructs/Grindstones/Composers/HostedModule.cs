@@ -16,9 +16,9 @@ public abstract class HostedModule<TModule> : ModuleBase where TModule : ModuleB
         builder.Populate(services.Value);
         FieldModule GetFieldModule()
         {
-            foreach (var name in Enum.GetNames(typeof(FieldModule)).Where(x => LocalType.Name.IsFuzzy(x)))
+            foreach (var name in Enum.GetNames<FieldModule>().Where(x => LocalType.Name.IsFuzzy(x)))
             {
-                return ((FieldModule)Enum.Parse(typeof(FieldModule), name, ignoreCase: true)).Archive();
+                return Enum.Parse<FieldModule>(name, ignoreCase: true).Archive();
             }
             return FieldModule.Unrecognizable;
         }
